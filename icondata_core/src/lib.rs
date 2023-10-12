@@ -11,5 +11,5 @@ pub struct IconData {
     pub stroke_width: Option<&'static str>,
     pub stroke: Option<&'static str>,
     pub fill: Option<&'static str>,
-    pub data: &'static str,
+    pub data: &'static str
 }
