@@ -1421,7 +1421,7 @@ pub enum CgIcon {
     #[cfg(feature = "CgZoomIn")]
     CgZoomIn,
     #[cfg(feature = "CgZoomOut")]
-    CgZoomOut,
+    CgZoomOut
 }
 
 #[cfg(feature = "CgAbstract")]
@@ -14347,7 +14347,7 @@ impl From<CgIcon> for icondata_core::IconData {
             #[cfg(feature = "CgZoomIn")]
             CgIcon::CgZoomIn => CG_ZOOM_IN,
             #[cfg(feature = "CgZoomOut")]
-            CgIcon::CgZoomOut => CG_ZOOM_OUT,
+            CgIcon::CgZoomOut => CG_ZOOM_OUT
         }
     }
 }
